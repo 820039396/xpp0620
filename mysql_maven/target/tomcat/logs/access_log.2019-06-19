@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:16:28:39 +0800] "GET / HTTP/1.1" 200 3237 http-bio-8088-exec-1 71
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:16:28:44 +0800] "GET /js/ajax.js HTTP/1.1" 200 664 http-bio-8088-exec-4 40
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:16:28:44 +0800] "GET /js/bmi-delete.js HTTP/1.1" 200 568 http-bio-8088-exec-8 1
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:16:28:44 +0800] "GET /img/3_01.jpg HTTP/1.1" 200 6254 http-bio-8088-exec-2 57
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:16:28:44 +0800] "GET /css/style.css HTTP/1.1" 200 2287 http-bio-8088-exec-3 58
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:16:28:44 +0800] "GET /js/bmi-query.js HTTP/1.1" 200 2024 http-bio-8088-exec-5 51
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:16:28:44 +0800] "GET /js/bmi-count.js HTTP/1.1" 200 3294 http-bio-8088-exec-6 54
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:16:28:44 +0800] "GET /js/bmi-add.js HTTP/1.1" 200 1288 http-bio-8088-exec-7 52
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:16:28:53 +0800] "GET /bim?action=list HTTP/1.1" 200 446 http-bio-8088-exec-5 1294
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:16:28:58 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8088-exec-8 4
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:16:46:52 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8088-exec-4 11
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:16:46:53 +0800] "GET /bim?action=list HTTP/1.1" 200 446 http-bio-8088-exec-3 1024
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:16:47:16 +0800] "GET /bim?action=list HTTP/1.1" 200 446 http-bio-8088-exec-9 125
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:17:22:37 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8088-exec-2 31
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:17:22:38 +0800] "GET /bim?action=list HTTP/1.1" 200 446 http-bio-8088-exec-1 657
+0:0:0:0:0:0:0:1 - - [19/Jun/2019:17:49:54 +0800] "GET /bim?action=list HTTP/1.1" 200 446 http-bio-8088-exec-3 1116

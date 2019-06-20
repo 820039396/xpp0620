@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.qf.bim.TestBimDao" time="2.435" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="G:\JAVA练习文件\课堂文件\bmi\mysql_maven\target\test-classes;G:\JAVA练习文件\课堂文件\bmi\mysql_maven\target\classes;D:\javalibrary\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;D:\javalibrary\repository\javax\servlet\javax.servlet-api\3.0.1\javax.servlet-api-3.0.1.jar;D:\javalibrary\repository\mysql\mysql-connector-java\5.1.32\mysql-connector-java-5.1.32.jar;D:\javalibrary\repository\junit\junit\4.12\junit-4.12.jar;D:\javalibrary\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1.SKY\AppData\Local\Temp\surefire8661948386241216519\surefirebooter2369407035838343315.jar C:\Users\Administrator.SKY-20190609GSF\AppData\Local\Temp\surefire8661948386241216519 2019-06-19T16-58-27_738-jvmRun1 surefire2792046070215807161tmp surefire_02286818335606245826tmp"/>
+    <property name="surefire.test.class.path" value="G:\JAVA练习文件\课堂文件\bmi\mysql_maven\target\test-classes;G:\JAVA练习文件\课堂文件\bmi\mysql_maven\target\classes;D:\javalibrary\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;D:\javalibrary\repository\javax\servlet\javax.servlet-api\3.0.1\javax.servlet-api-3.0.1.jar;D:\javalibrary\repository\mysql\mysql-connector-java\5.1.32\mysql-connector-java-5.1.32.jar;D:\javalibrary\repository\junit\junit\4.12\junit-4.12.jar;D:\javalibrary\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator.SKY-20190609GSF"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_51\jre"/>
+    <property name="basedir" value="G:\JAVA练习文件\课堂文件\bmi\mysql_maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1.SKY\AppData\Local\Temp\surefire8661948386241216519\surefirebooter2369407035838343315.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_51\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_51-b16"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\javalibrary\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1.SKY\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2017.1.2"/>
+    <property name="java.version" value="1.8.0_51"/>
+    <property name="user.dir" value="G:\JAVA练习文件\课堂文件\bmi\mysql_maven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_51\bin;D:\mysql\mysql-5.7.17-winx64\bin;D:\maven\apache-maven-3.3.9\bin;D:\apache-tomcat\apache-tomcat-7.0.40\lib;D:\vsc\node\;C:\Users\Administrator.SKY-20190609GSF\AppData\Roaming\npm;D:\vsc\Vsc\Microsoft VS Code\bin;C:\Program Files (x86)\MyDrivers\DriverGenius;C:\Program Files (x86)\MyDrivers\DriverGenius\ksoft;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.51-b03"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\javalibrary\repository"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="bimdaotest" classname="com.qf.bim.TestBimDao" time="2.312"/>
+</testsuite>

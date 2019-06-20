@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>BMI</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body>
+		<div class="box">
+
+			<div class="bmi_count">
+				<table class="table_count">
+					<tr>
+						<th>BMI计算</th>
+					</tr>
+					<tr>
+						<td class="title">身高:</td>
+						<td>
+							<div class="inpt_box">
+								<input type="number" class="input height" id="height" />
+								<p class="input_unit">厘米</p>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="title">体重:</td>
+						<td>
+							<div class="inpt_box">
+								<input type="number" class="input weight" id="weight" />
+								<p class="input_unit">体重</p>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="title">性别:</td>
+						<td>
+							<div class="sex">
+								<div class="male">
+									<!--<label> 标签为 input 元素定义标注（标记）。-->
+									<!-- 标签的 for 属性应当与相关元素的 id 属性相同。-->
+									<label for="male">男</label>
+									<input type="radio" name="sex" id="male" checked="checked" />
+								</div>
+								<div class="female">
+									<label for="female">女</label>
+									<input type="radio" name="sex" id="female" />
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2"><button type="button" class="submit" onclick="Cal()">计算BMI</button></td>
+					</tr>
+				</table>
+
+				<table class="table_norm">
+					<tr>
+						<td>分类</td>
+						<td>BMIf范围</td>
+					</tr>
+					<tr>
+						<td>偏瘦</td>
+						<td>
+							<=1 8.4</td>
+					</tr>
+					<tr>
+						<td>正常</td>
+						<td>18.5 ~ 23.9</td>
+					</tr>
+					<tr>
+						<td>过重</td>
+						<td>24.0 ~ 27.9</td>
+					</tr>
+					<tr>
+						<td>肥胖</td>
+						<td>>= 28.0</td>
+					</tr>
+				</table>
+			</div>
+			
+			<!--－－－－－－－－结果区－－－－－－－－－－－－-->
+			<div class="bmi_result">
+				<img src="img/3_01.jpg" class="bmi_result_photo" id="bmi_result_photo" />
+				<p class="bmi_result_value" id="bmi_result_value">BMI&nbsp;正常</p>
+				<p class="bmi_result_idealweight" id="bmi_result_idealweight">理想体重</p>
+			</div>
+			
+			<!--－－－－－－－－历史记录区－－－－－－－－－－－－-->
+			<div class="bmi_history">
+				<table class="table_history" id="table_history">
+					<tr class="table_history_title">
+						<td>id</td>
+						<td>日期</td>
+						<td>身高</td>
+						<td>体重</td>
+						<td>BMI</td>
+						<td>删除</td>
+					</tr>
+					<!--<tr class="table_history_rsult">
+						<td>id</td>
+						<td>Header</td>
+						<td>Header</td>
+						<td>Header</td>
+						<td>Header</td>
+						<td><input type="submit" value="删除" class="submit" /></td>
+					</tr>-->
+
+				</table>
+
+			</div>
+
+		</div>
+
+	</body>
+
+	<script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bmi-query.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bmi-count.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bmi-add.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bmi-delete.js" type="text/javascript" charset="utf-8"></script>
+
+</html>
